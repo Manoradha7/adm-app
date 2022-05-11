@@ -52,7 +52,7 @@ function App() {
 }
 
 function InfiniteReply() {
-  const [message, setMessage] = useState([]);
+  const [message] = useState([]);
 
   function ReplyMsg(){
    

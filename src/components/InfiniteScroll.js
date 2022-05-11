@@ -14,7 +14,7 @@ export function InfiniteScroll() {
       {employees.map((val, index) => {
         return (
           <div key={index} className="empContainer">
-            <div className="emp-img"><img src={val.avatar}/></div>
+            <div className="emp-img"><img src={val.avatar} alt='img'/></div>
             <div className="empDetail">
             <span>Name   :{val.name}</span>
             <span>Email  :{val.email}</span>
